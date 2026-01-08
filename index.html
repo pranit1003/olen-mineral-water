@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLEN Mineral Water - Pure Water, Pure Life | Shiv Parvati Foods and Beverage</title>
+    <meta name="description" content="OLEN Mineral Water by Shiv Parvati Foods and Beverage - BIS Certified, RO+UV purified mineral water for homes, offices and events.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header & Navigation */
+        header {
+            background: linear-gradient(135deg, #0066cc 0%, #004499 100%);
+            color: white;
+            padding: 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header-top {
+            background: #003d7a;
+            padding: 8px 0;
+            font-size: 14px;
+        }
+
+        .header-top .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-contact span {
+            margin-right: 20px;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .logo span {
+            font-size: 14px;
+            display: block;
+            font-weight: normal;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+            padding: 5px 10px;
+        }
+
+        .nav-links a:hover {
+            color: #66ccff;
+            transform: translateY(-2px);
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 28px;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            margin-top: 120px;
+            background: linear-gradient(135deg, rgba(0,102,204,0.85), rgba(0,68,153,0.85)), url('https://i.ibb.co/60NM75qp/this-is-my-mineral-water-bottle-this-is-q6ezf-Owg-SNSo-Pe1eu-K2-JCQ-2c-Rjy-NOo-Ty-KBRw7-DRMTgcw.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 56px;
+            margin-bottom: 20px;
+            animation: fadeInDown 1s;
+        }
+
+        .hero .tagline {
+            font-size: 28px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 15px 40px;
+            font-size: 16px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background: white;
+            color: #0066cc;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: #0066cc;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        section {
+            padding: 80px 20px;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 42px;
+            color: #0066cc;
+            margin-bottom: 20px;
+        }
+
+        section .subtitle {
+            text-align: center;
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 60px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Highlights Section */
+        .highlights {
+            background: #f8f9fa;
+        }
+
+        .highlights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .highlight-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+
+        .highlight-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,102,204,0.2);
+        }
+
+        .highlight-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #0066cc;
+        }
+
+        .highlight-card h3 {
+            color: #0066cc;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        /* About Section */
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-text h3 {
+            color: #0066cc;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .about-text p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .about-values {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            border-left: 5px solid #0066cc;
+        }
+
+        .about-values h4 {
+            color: #0066cc;
+            margin-bottom: 15px;
+        }
+
+        /* Products Section */
+        .products {
+            background: linear-gradient(180deg, #f8f9fa 0%, white 100%);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0,102,204,0.2);
+        }
+
+        .product-image {
+            height: 300px;
+            background: linear-gradient(135deg, #e6f2ff 0%, #cce6ff 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .product-image img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            filter: drop-shadow(0 5px 15px rgba(0,0,0,0.2));
+        }
+
+        .product-info {
+            padding: 30px;
+        }
+
+        .product-info h3 {
+            color: #0066cc;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .product-info p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .product-features {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .product-features li {
+            padding: 8px 0;
+            color: #555;
+        }
+
+        .product-features li:before {
+            content: "✓ ";
+            color: #0066cc;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        /* Process Section */
+        .process {
+            background: linear-gradient(135deg, #0066cc 0%, #004499 100%);
+            color: white;
+        }
+
+        .process h2 {
+            color: white;
+        }
+
+        .process .subtitle {
+            color: rgba(255,255,255,0.9);
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .process-step {
+            background: rgba(255,255,255,0.1);
+            padding: 40px 30px;
+            border-radius: 15px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: white;
+            color: #0066cc;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0 auto 20px;
+        }
+
+        .process-step h3 {
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        /* Contact Section */
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 40px;
+            border-radius: 15px;
+        }
+
+        .contact-info h3 {
+            color: #0066cc;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: start;
+            margin-bottom: 25px;
+        }
+
+        .contact-icon {
+            font-size: 24px;
+            color: #0066cc;
+            margin-right: 15px;
+            margin-top: 5px;
+        }
+
+        .contact-form {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #0066cc;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 60px 20px 20px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto 40px;
+        }
+
+        .footer-section h3 {
+            color: #0066cc;
+            margin-bottom: 20px;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .footer-section a:hover {
+            color: #66ccff;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #333;
+            color: #999;
+        }
+
+        /* Map Container */
+        .map-container {
+            margin-top: 40px;
+            border-radius: 15px;
+            overflow: hidden;
+            height: 400px;
+            background: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #0066cc;
+                flex-direction: column;
+                padding: 20px;
+                gap: 0;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links a {
+                padding: 15px;
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+            }
+
+            .hero {
+                margin-top: 100px;
+                padding: 60px 20px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero .tagline {
+                font-size: 20px;
+            }
+
+            .about-content,
+            .contact-content {
+                grid-template-columns: 1fr;
+            }
+
+            section h2 {
+                font-size: 32px;
+            }
+
+            .header-top .container {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+        /* Page Navigation */
+        .page-nav {
+            background: #f8f9fa;
+            padding: 15px 0;
+            margin-top: 120px;
+            border-bottom: 3px solid #0066cc;
+        }
+
+        .page-nav .container {
+            display: flex;
+            align-items: center;
+            color: #666;
+        }
+
+        .page-nav a {
+            color: #0066cc;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .page-nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="header-contact">
+                    <span>📞 +91-XXXXXXXXXX</span>
+                    <span>✉️ info@olenmineralwater.com</span>
+                </div>
+                <div>BIS Certified | ISO Compliant</div>
+            </div>
+        </div>
+        <nav>
+            <div class="logo">
+                OLEN
+                <span>MINERAL WATER</span>
+            </div>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" onclick="closeMenu()">Home</a></li>
+                <li><a href="#about" onclick="closeMenu()">About Us</a></li>
+                <li><a href="#products" onclick="closeMenu()">Products</a></li>
+                <li><a href="#process" onclick="closeMenu()">Quality & Process</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>OLEN</h1>
+        <div class="tagline">Pure Water, Pure Life</div>
+        <p>Experience the essence of purity with OLEN Mineral Water. Sourced from pristine environments and purified through advanced technology, we bring you water that's not just clean, but truly pure.</p>
+        <div class="cta-buttons">
+            <a href="#contact" class="btn btn-primary">Order Now</a>
+            <a href="#products" class="btn btn-secondary">View Products</a>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="highlights">
+        <div class="container">
+            <h2>Why Choose OLEN?</h2>
+            <p class="subtitle">Trusted by thousands for uncompromising quality and purity</p>
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <div class="highlight-icon">🏆</div>
+                    <h3>BIS Certified</h3>
+                    <p>Fully compliant with Bureau of Indian Standards for packaged drinking water</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">💧</div>
+                    <h3>Advanced Purification</h3>
+                    <p>Multi-stage RO + UV + Ozonation process ensures 99.99% purity</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">🔒</div>
+                    <h3>Hygienic Packaging</h3>
+                    <p>Food-grade PET bottles sealed in state-of-the-art facilities</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">✨</div>
+                    <h3>Rich in Minerals</h3>
+                    <p>Balanced mineral content for optimal health and taste</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Shiv Parvati Foods and Beverage</h2>
+            <p class="subtitle">Delivering pure, safe, and healthy drinking water since inception</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Shiv Parvati Foods and Beverage is a leading manufacturer of premium packaged drinking water under the brand name OLEN. We are committed to providing safe, pure, and healthy drinking water to our customers across the region.</p>
+                    <p>With state-of-the-art manufacturing facilities and stringent quality control measures, we ensure that every drop of OLEN water meets the highest standards of purity and safety. Our advanced purification technology removes all impurities while retaining essential minerals.</p>
+                    <p>We serve homes, offices, hotels, restaurants, events, and retail outlets, ensuring that pure water is accessible to everyone, everywhere.</p>
+                </div>
+                <div>
+                    <div class="about-values">
+                        <h4>🎯 Our Mission</h4>
+                        <p>To deliver safe, pure, and healthy drinking water to every household and business, making quality hydration accessible to all.</p>
+                    </div>
+                    <br>
+                    <div class="about-values">
+                        <h4>👁️ Our Vision</h4>
+                        <p>To become the most trusted and preferred mineral water brand, known for uncompromising quality, innovation, and customer satisfaction.</p>
+                    </div>
+                    <br>
+                    <div class="about-values">
+                        <h4>💎 Our Values</h4>
+                        <p>Quality First • Customer Centric • Sustainability • Innovation • Integrity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <p class="subtitle">Premium mineral water in various sizes to meet all your hydration needs</p>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.ibb.co/60NM75qp/this-is-my-mineral-water-bottle-this-is-q6ezf-Owg-SNSo-Pe1eu-K2-JCQ-2c-Rjy-NOo-Ty-KBRw7-DRMTgcw.jpg" alt="OLEN 500ml Mineral Water Bottle">
+                    </div>
+                    <div class="product-info">
+                        <h3>500 ML Bottle</h3>
+                        <p>Perfect for on-the-go hydration</p>
+                        <ul class="product-features">
+                            <li>Convenient single-serve size</li>
+                            <li>Ideal for travel & outdoor activities</li>
+                            <li>Easy to carry and store</li>
+                            <li>Available in cartons</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">Enquire Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.ibb.co/60NM75qp/this-is-my-mineral-water-bottle-this-is-q6ezf-Owg-SNSo-Pe1eu-K2-JCQ-2c-Rjy-NOo-Ty-KBRw7-DRMTgcw.jpg" alt="OLEN 1 Liter Mineral Water Bottle">
+                    </div>
+                    <div class="product-info">
+                        <h3>1 Liter Bottle</h3>
+                        <p>Perfect for personal daily use</p>
+                        <ul class="product-features">
+                            <li>Ideal for home & office</li>
+                            <li>Value for money</li>
+                            <li>Easy grip design</li>
+                            <li>Bulk orders available</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">Enquire Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.ibb.co/60NM75qp/this-is-my-mineral-water-bottle-this-is-q6ezf-Owg-SNSo-Pe1eu-K2-JCQ-2c-Rjy-NOo-Ty-KBRw7-DRMTgcw.jpg" alt="OLEN 2 Liter Mineral Water Bottle">
+                    </div>
+                    <div class="product-info">
+                        <h3>2 Liter Bottle</h3>
+                        <p>Family size for home consumption</p>
+                        <ul class="product-features">
+                            <li>Best value for families</li>
+                            <li>Fewer plastic bottles</li>
+                            <li>Eco-friendly option</li>
+                            <li>Perfect for refrigerator</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">Enquire Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.ibb.co/60NM75qp/this-is-my-mineral-water-bottle-this-is-q6ezf-Owg-SNSo-Pe1eu-K2-JCQ-2c-Rjy-NOo-Ty-KBRw7-DRMTgcw.jpg" alt="OLEN 20 Liter Water Jar">
+                    </div>
+                    <div class="product-info">
+                        <h3>20 Liter Jar (Can)</h3>
+                        <p>Bulk solution for offices & events</p>
+                        <ul class="product-features">
+                            <li>Cost-effective for businesses</li>
+                            <li>Compatible with dispensers</li>
+                            <li>Regular delivery available</li>
+                            <li>Hygienically sealed</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">Enquire Now</a>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 60px; padding: 40px; background: white; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                <h3 style="color: #0066cc; margin-bottom: 20px;">Bulk Supply Available</h3>
+                <p style="font-size: 18px; margin-bottom: 20px;">We cater to homes, offices, hotels, restaurants, events, weddings, and corporate functions</p>
+                <a href="#contact" class="btn btn-primary">Get Bulk Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <h2>Quality & Purification Process</h2>
+            <p class="subtitle">Advanced multi-stage purification ensuring 99.99% purity</p>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Source Water Collection</h3>
+                    <p>Water sourced from approved and tested sources, ensuring quality from the very beginning</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Multi-Stage Filtration</h3>
+                    <p>Pre-filtration removes suspended particles, sediments, and large impurities</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>RO Purification</h3>
+                    <p>Reverse Osmosis removes dissolved solids, heavy metals, and microscopic contaminants</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>UV Treatment</h3>
+                    <p>Ultraviolet sterilization eliminates 99.99% of bacteria, viruses, and microorganisms</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <h3>Ozonation</h3>
+                    <p>Ozone treatment provides final disinfection and extends shelf life naturally</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">6</div>
+                    <h3>Mineral Addition</h3>
+                    <p>Essential minerals added in balanced quantities for taste and health benefits</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">7</div>
+                    <h3>Quality Testing</h3>
+                    <p>Rigorous laboratory testing for pH, TDS, minerals, and microbial parameters</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">8</div>
+                    <h3>Hygienic Packaging</h3>
+                    <p>Automated bottling in sterile environment with tamper-proof sealing</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 60px; padding: 40px; background: rgba(255,255,255,0.1); border-radius: 15px; backdrop-filter: blur(10px);">
+                <h3 style="margin-bottom: 20px;">Certifications & Compliance</h3>
+                <p style="font-size: 18px; margin-bottom: 15px;">✅ BIS Certified (Bureau of Indian Standards)</p>
+                <p style="font-size: 18px; margin-bottom: 15px;">✅ FSSAI Licensed</p>
+                <p style="font-size: 18px; margin-bottom: 15px;">✅ Regular Third-Party Lab Testing</p>
+                <p style="font-size: 18px;">✅ ISO Standards Compliant</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p class="subtitle">Get in touch for orders, inquiries, or bulk supply requirements</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>SHIVPARVATI FOODS AND BEVERAGES PVT. LTD.</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Address</strong><br>
+                            Manakapur, Maharashtra 416143<br>
+                           
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <strong>Phone</strong><br>
+                            +91-XXXXXXXXXX<br>
+                            +91-XXXXXXXXXX
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <strong>Email</strong><br>
+                            info@olenmineralwater.com<br>
+                            orders@olenmineralwater.com
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div>
+                            <strong>Business Hours</strong><br>
+                            Monday - Saturday: 9:00 AM - 6:00 PM<br>
+                            Sunday: Closed
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3 style="color: #0066cc; margin-bottom: 25px;">Send Us a Message</h3>
+                    <form onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label>Full Name *</label>
+                            <input type="text" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label>Mobile Number *</label>
+                            <input type="tel" required placeholder="Enter your mobile number">
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address *</label>
+                            <input type="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="What is this regarding?">
+                        </div>
+                        <div class="form-group">
+                            <label>Message *</label>
+                            <textarea required placeholder="Tell us about your requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="map-container" style="background: white; padding: 0;">
+                <!-- INSTRUCTIONS TO ADD YOUR GOOGLE MAP:
+                     1. Go to https://www.google.com/maps
+                     2. Search your business location
+                     3. Click "Share" button
+                     4. Click "Embed a map" tab
+                     5. Copy the iframe code
+                     6. Replace the iframe below with your copied code
+                -->
+                
+                <!-- Example Google Maps Embed (REPLACE WITH YOUR ACTUAL LOCATION) -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30258.296407935827!2d73.79099!3d18.62850!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9c6c6c6c6c6%3A0x1!2sPimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890"
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                
+                <!-- Alternative: If you don't have Google Maps yet, uncomment this:
+                <div style="padding: 100px 20px; text-align: center; color: #666;">
+                    <h3 style="color: #0066cc; margin-bottom: 20px;">📍 Find Us Here</h3>
+                    <p style="font-size: 16px; margin-bottom: 15px;">Shiv Parvati Foods and Beverage</p>
+                    <p style="font-size: 14px;">[Your Complete Address]</p>
+                    <p style="font-size: 14px; margin-top: 10px;">
+                        <a href="https://maps.google.com/?q=YOUR_ADDRESS" target="_blank" 
+                           style="color: #0066cc; text-decoration: none; font-weight: 600;">
+                            📍 Open in Google Maps
+                        </a>
+                    </p>
+                </div>
+                -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>OLEN Mineral Water</h3>
+                <p>By Shiv Parvati Foods and Beverage</p>
+                <p style="margin-top: 20px;">Committed to delivering pure, safe, and healthy drinking water to every household and business.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#products">Products</a>
+                <a href="#process">Quality & Process</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <div class="footer-section">
+                <h3>Our Products</h3>
+                <a href="#products">500 ML Bottle</a>
+                <a href="#products">1 Liter Bottle</a>
+                <a href="#products">2 Liter Bottle</a>
+                <a href="#products">20 Liter Jar (Can)</a>
+                <a href="#contact">Bulk Orders</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>📞 +91-XXXXXXXXXX</p>
+                <p>✉️ info@olenmineralwater.com</p>
+                <p>🕒 Mon-Sat: 9 AM - 6 PM</p>
+                <p style="margin-top: 20px;">🏆 BIS Certified | FSSAI Licensed</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 OLEN Mineral Water - Shiv Parvati Foods and Beverage. All Rights Reserved.</p>
+            <p style="margin-top: 10px;">Designed with ❤️ for Pure Water, Pure Life</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        function closeMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.remove('active');
+        }
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handler
+        function handleSubmit(event) {
+            event.preventDefault();
+            alert('Thank you for your message! We will contact you soon.\n\nNote: This is a demo. Please integrate with your actual backend or email service.');
+            event.target.reset();
+            return false;
+        }
+
+        // Scroll effect for header
+        let lastScroll = 0;
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                header.style.boxShadow = '0 5px 20px rgba(0,0,0,0.2)';
+            } else {
+                header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards and sections
+        document.addEventListener('DOMContentLoaded', () => {
+            const animatedElements = document.querySelectorAll('.highlight-card, .product-card, .process-step, .about-values');
+            animatedElements.forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(30px)';
+                el.style.transition = 'all 0.6s ease-out';
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
